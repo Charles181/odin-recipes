@@ -1,5 +1,26 @@
 body{
-    background-color: whitesmoke;
+    background-color: cornsilk;
+}
+.header{
+    display: flex;
+}
+.header img{
+    width: 200px;
+}
+.header h1{
+    font-size: 75px;
+    text-align: center;
+    margin:auto;
+}
+.container-recipes{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+.recipe{
+    border: solid 1px black;
+    border-radius: 10%;
+    text-align: center;
 }
 .img-container {
     display: flex;
@@ -7,5 +28,30 @@ body{
     height: 500px;
 }
 h1{
+    color: tomato;
     text-align: center;
+    font-size: 50px;
+}
+.desc {
+    text-align: center;
+}
+.instructions {
+   
+    background-color: dimgrey;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    color:whitesmoke;
+    margin:auto;
+    max-width: fit-content;
+}
+.grid-item{
+   border: solid 1px black;
+   padding: 10px;
+}
+.warning {
+    color: red;
+    
+}
+.warning:hover{
+    font-size: 200%;
 }
